@@ -1,0 +1,51 @@
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+#love {
+  color: rgb(255, 0, 0);
+}
+
+span {
+  color: rgb(170, 33, 33);
+}
+
+#link_1 {
+  color: rgb(227, 22, 22);
+}
+
+#link_2 {
+  color: rgb(174, 88, 21);
+}
+
+#link_3 {
+  color: rgb(165, 168, 9);
+}
+
+#link_4 {
+  color: rgb(29, 162, 51);
+}
+
+#link_5 {
+  color: rgb(49, 74, 185);
+}
+
+p.advice {
+  color: brown;
+}
+
+.rekom > p {
+  color: rgb(57, 57, 172);
+}
+
+.lovee {
+  color: rgb(21, 17, 17);
+}
+
+.inter * {
+  color: rgb(43, 54, 67);
+}
