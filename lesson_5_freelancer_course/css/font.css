@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merriweather:ital,wght@0,700;0,900;1,300;1,400&family=PT+Serif&family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,500;1,400;1,500&display=swap');
+
+
+@font-face {
+  font-family: "AngleciaProDsp";
+  src: url('../fonts/AngleciaProDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/AngleciaProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AngleciaProDsp";
+  src: url('../fonts/AngleciaProDisplay-Italic.woff') format('woff2'),
+      url('../fonts/AngleciaProDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Collingar";
+  src: url('../fonts/CollingarDEMO.woff2') format('woff2'),
+      url('../fonts/CollingarDEMO.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

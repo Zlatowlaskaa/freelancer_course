@@ -1,0 +1,124 @@
+.headeer {
+text-align: center;
+}
+
+h1 {
+font-family: 'Merriweather', serif;
+font-weight: 900;
+color: rgb(35, 47, 76);
+font-size: 30px;
+margin: 20px 0px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: "AngleciaProDsp";
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.navv {
+font-size: 15px;
+font-weight: 700;
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 35px;
+text-transform: uppercase;
+}
+
+.navv li {
+padding-left: 25px;
+}
+
+.navv li a {
+text-transform: uppercase;
+color: rgb(0, 0, 0);
+padding: 10px 20px;
+}
+
+/* .navv li a:hover {
+background-color: rgb(234, 234, 79);
+color: aliceblue;
+border-radius: 5px;
+} */
+
+.text-headeer {
+font-family: 'Merriweather', serif;
+font-style: italic;
+font-size: 15px;
+margin-bottom: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.link {
+margin: 25px 15px 25px;
+}
+
+.link p {
+font-size: 15px;
+font-family: "AngleciaProDsp";
+text-indent: 15px;
+letter-spacing: 0.5px;
+word-spacing: 2px;
+font-weight: 400;
+margin-bottom: 15px;
+line-height: 1.8;
+}
+
+.fact p {
+background-color: rgb(237, 235, 87);
+color: rgb(3, 3, 4);
+}
+
+span.tech {
+  text-shadow: 2px 5px 5px rgb(234, 202, 43);
+}
+
+.quotes {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.quotes p {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-shadow: 2px 5px 5px rgb(208, 201, 165);
+  text-transform: uppercase;
+  width: 500px;
+  font-weight: 400;
+  text-align: right;
+  margin: 25px;
+}
+
+span.color {
+background-color: rgba(255, 255, 166, 0.823);
+}
+
+.add > p {
+color: black;
+background-color: rgb(237, 235, 87);
+}
+
+div.help  > p {
+color: rgb(44, 46, 2);
+font-family: 'Merriweather', serif;
+text-transform: uppercase;
+text-decoration: overline;
+text-align: center;
+}
+
+.help a {
+background-color: rgb(223, 188, 11);
+}
+
+.advertising  {
+  white-space: normal;
+  margin-bottom: 25px;
+  color: bisque;
+}
