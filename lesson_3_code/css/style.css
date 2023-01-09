@@ -1,0 +1,59 @@
+#menu {
+  color: lightsalmon;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: forestgreen;
+}
+
+span {
+  color: blue;
+}
+
+.bear {
+  color: rgb(0, 70, 23);
+}
+
+p.bear-caption {
+  color: rgb(133, 14, 245);
+}
+
+.summary span {
+  color: aquamarine;
+}
+
+.description + * {
+  color: peru;
+}
+
+.hed {
+  color: rgb(227, 216, 123);
+}
+
+.gehog {
+  color: brown;
+}
+
+span.red-text {
+  color: red;
+}
+
+.content .content-desmana {
+  color: darkorange;
+}
+
+.content-desmana > span {
+  color: blue;
+}
+
+.content-text + * {
+  color: deepskyblue;
+}
+
+.mustela-about ~ span {
+  color: blueviolet;
+}
