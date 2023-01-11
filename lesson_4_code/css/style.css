@@ -1,0 +1,71 @@
+h1 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Larsseit", serif;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.img-header {
+  text-align: center;
+}
+
+/* я не уверена что к ul можно применять выравнивание текста, но оно сработало. Или было необходимо всё поместить в строчный элемент? */
+ul {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: overline;
+  line-height: 150%;
+  color: #356693;
+}
+
+a.author {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.theorem-one-explanation > p {
+  font-size: 18px;
+  text-align: justify;
+  color: #20587d;
+}
+
+.lorem {
+  font-family: "Roboto", sans-serif;
+  text-decoration: line-through;
+  text-indent: 30px;
+  color: #ff0000;
+}
+
+.img-header.main + * {
+  color: #ff0000;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.theorem-two-explanation-text ~ p {
+  word-spacing: 5px;
+  color: #89ea0b;
+  white-space: nowrap;
+}
+
+.theorem-two-explanation-text > p {
+  font-size: 20px;
+  text-shadow: 1px 5px 3px rgba(193, 255, 21, 0.5);
+  font-family: "Larsseit", serif;
+  font-weight: 700;
+}
+
+.useful-link a {
+  color: #ff0000;
+  text-decoration: underline;
+  letter-spacing: 15px;
+}

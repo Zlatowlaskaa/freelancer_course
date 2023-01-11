@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Рождественская теорема Ферма и Крылатые квадраты Спивака</title>
+  </head>
+  <body>
+    <header>
+      <br />
+      <h1>Рождественская теорема Ферма и Крылатые квадраты Спивака</h1>
+      <br />
+      <p class="img-header">
+        <img
+          src="img/rozhdestvenskaya-teorema-ferma-i-krylatye-kvadraty-spivaka.jpg"
+          width="500"
+          height="400"
+          alt="Три яркие иллюстрации к теореме с людьми и роботом"
+        />
+      </p>
+      <br />
+      <br />
+      <nav>
+        <ul>
+          <li><a href="#link-1">Задача о суммах двух квадратов</a></li>
+          <li><a href="#link-2">Крылатые квадраты</a></li>
+          <li><a href="#link-3">От простых чисел к составным</a></li>
+        </ul>
+        <br />
+        <br />
+      </nav>
+    </header>
+
+    <main>
+      <div class="theorem">
+        <div class="theorem-one">
+          <h2 id="link-1">Задача о суммах двух квадратов</h2>
+          <br />
+          <div class="theorem-one-explanation">
+            <p>
+              Какие целые числа могут быть представлены в виде суммы двух
+              квадратов? С этого вопроса началась классическая теория чисел,
+              а ответ на него нашёл Пьер Ферма ещё в XVII веке.
+            </p>
+            <br />
+            <p>
+              Начнём с того, что квадрат целого числа даёт остаток 0 или 1 при
+              делении на 4. Поэтому сумма двух квадратов даёт при делении на 4
+              остаток 0, 1 или 2. То есть никакое число вида 4k + 3 в виде суммы
+              двух квадратов не представимо. А вот среди чисел вида 4k + 1 есть
+              как представимые (например, 5 = 22 + 12, 9 = 32 + 02), так и нет
+              (например, 21 или 33).
+            </p>
+            <br />
+            <div class="lorem">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                deleniti?
+              </p>
+            </div>
+            <br />
+            <p>
+              С Рождества 1640 года (когда Ферма объявил, что доказал эту
+              теорему — поэтому её и называют Рождественской) был найден не один
+              десяток разных доказательств. Мы обсудим замечательное
+              элементарное доказательство с «крылатыми квадратами», найденное
+              <a
+                class="author"
+                target="_blank"
+                href="http://mmmf.msu.ru/lect/spivak/summa_sq.pdf"
+                >А. В. Спиваком</a
+              >
+              уже в XXI веке.
+            </p>
+            <br />
+          </div>
+        </div>
+
+        <div class="theorem-two">
+          <h2 id="link-2">Крылатые квадраты</h2>
+          <br />
+          <div class="theorem-two-explanation">
+            <p class="img-header main">
+              <img
+                src="img/rozhdestvenskaya-teorema.jpg"
+                width="200"
+                height="200"
+                alt="Крылатый квадрат"
+              />
+            </p>
+            <p>Рис 1</p>
+            <br />
+            <div class="theorem-two-explanation-text">
+              <p>
+                Пусть p — простое число вида 4k + 1. Рассмотрим все такие тройки
+                целых неотрицательных чисел (x, y, z), что p = 4xy + z2. Наша
+                цель — доказать, что среди них есть хотя бы одна тройка, для
+                которой x = y: тогда p = (2x)2 + z2 — сумма двух квадратов.
+              </p>
+              <br />
+              <p>
+                Все тройки, для которых x ≠ y, разбиваются на пары (x, y, z) ⟷
+                (y, x, z). Поэтому достаточно доказать, что количество наших
+                троек нечётно (тогда все они разбиться на пары не могут).
+              </p>
+              <br />
+              <p>
+                Пришло время добавить к разговорам картинки. По каждой тройке
+                (x, y, z) мы нарисуем клетчатую фигуру («крылатый квадрат»):
+                начнём с квадрата z × z и приставим к нему (начиная с правого
+                верхнего угла)1 4 равных прямоугольника x × y (рис. 1). Если
+                p = 4xy + z2, мы получим крылатый квадрат площади p.
+              </p>
+              <br />
+            </div>
+            <p>
+              Lorem ipsum dolor simus voluptatum dolores repellat impedit eum
+              sed Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Earum.
+            </p>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+
+        <div class="theorem-three">
+          <h2 id="link-3">От простых чисел к составным</h2>
+          <br />
+          <div class="theorem-three-explanation theorem-one-explanation">
+            <p>
+              Дело в том, что наша задача, как говорят, мультипликативна: если
+              числа M и N представимы в виде суммы двух квадратов, то в таком
+              виде представимо и число MN (действительно, если M = a2 + b2 и N =
+              c2 + d2, то MN = (ac + bd)2 + (ad — bc)2); и наоборот, если
+              число MN представимо в виде суммы двух квадратов, а числа M и N
+              взаимно просты (не имеют общих делителей), то и M, и N тоже
+              представимы в виде суммы двух квадратов (это непростой факт).
+            </p>
+            <p>
+              Пользуясь этим, уже не очень сложно вывести из Рождественской
+              теоремы и общее утверждение: число N представимо в виде суммы двух
+              квадратов тогда и только тогда, когда каждое простое число вида
+              4k + 3, входящее в разложение числа N на простые сомножители,
+              входит в него в чётной степени.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <br />
+      <br />
+      <div class="useful-link">
+        <p>
+          <a target="_blank" href="https://elementy.ru/">elementy.ru</a>
+        </p>
+      </div>
+      <br />
+      <br />
+    </footer>
+  </body>
+</html>
