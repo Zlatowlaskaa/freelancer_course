@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&family=Merriweather:ital,wght@1,300;1,900&display=swap");
+/*  font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif; */
+
+@font-face {
+  font-family: "Chicola Smoothy";
+  src: url("../fonts/ChicolaSmoothy.woff2") format("woff2"),
+    url("../fonts/ChicolaSmoothy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
