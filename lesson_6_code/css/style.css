@@ -1,0 +1,64 @@
+.wrapper {
+width: 810px;
+margin: 0 auto;
+font-family: "Lato", sans-serif;
+}
+
+.header {
+margin: 0px 0px 40px 0px;
+}
+
+h1 {
+font-size: 46px;
+font-weight: 900;
+line-height: 59.8px;
+}
+
+.img {
+width: 100%;
+margin: 0px 0px 60px 0px;
+}
+
+.bold-text {
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #1E212C;
+margin: 0px 0px 24px 0px;
+}
+
+.lighter-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+color: #424551;
+margin: 0px 0px 48px 0px;
+}
+
+.lighter-text-margin {
+margin: 0px 0px 25px 0px;
+}
+
+.main-quotes {
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #1E212C;
+margin: 0px 0px 48px 58px;
+}
+
+.text-list {
+  margin: 0px 0px 24px 0px;
+}
+
+.main-list {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #424551;
+  margin: 0px 0px 24px 0px;
+}
+
+li {
+margin: 0px 0px 4px 16px;
+}
