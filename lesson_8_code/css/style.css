@@ -1,0 +1,273 @@
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+[class*="__text"] {
+  line-height: 160%;
+  color: #424551;
+}
+
+[class*="__title"] {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1e212c;
+}
+
+[class*="__bold"] {
+  font-weight: 700;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.course__title {
+  margin-bottom: 40px;
+}
+
+.course__text {
+  margin-bottom: 48px;
+}
+
+.course__bold {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.course__list li {
+  margin-bottom: 4px;
+  padding-left: 25px;
+  line-height: 160%;
+  min-height: 25px;
+  background: url(../img/icons/check.svg) 0 7px no-repeat;
+}
+
+.course__menu {
+  margin-bottom: 100px;
+}
+
+.curator__description {
+  margin-bottom: 32px;
+}
+
+.secondary__bold {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.main__title {
+  margin-bottom: 16px;
+}
+
+.job-title {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787a80;
+}
+
+.curator__list li {
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  min-height: 25px;
+  padding-left: 31px;
+  margin-bottom: 9px;
+}
+
+li.list-one {
+  background: url(../img/icons/Star.svg) 0 5px no-repeat;
+}
+
+li.list-two {
+  background: url(../img/icons/Play.svg) 0 5px no-repeat;
+}
+
+li.list-three {
+  background: url(../img/icons/Person.svg) 0 5px no-repeat;
+}
+
+.curator__menu {
+  margin-bottom: 32px;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+/* Эксперименты */
+
+.experiments p {
+  min-height: 300px;
+  background: #78d2da url(../img/curator-image.png) 50% / contain no-repeat
+    fixed;
+}
+
+.experiments-one {
+  margin: 50px;
+}
+.link_hover:hover {
+  color: #ff0000;
+}
+
+.p_hover:hover {
+  color: gold;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.block {
+  background-color: #fb2a00;
+  color: #ffffff;
+  padding: 10px;
+  margin: 20px;
+}
+
+.block__item {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.block:hover .block__item {
+  opacity: 1;
+  visibility: visible;
+}
+
+a.act:active {
+  color: #7cfc00;
+}
+
+a.vis:visited {
+  color: #ffa500;
+}
+
+ul.links {
+  margin-left: 20px;
+}
+
+ul ul {
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+a.foc:focus {
+  color: #fb2a00;
+  outline: 2px dotted #008000;
+}
+
+.experiments-three {
+  background-color: #ba75ab;
+  color: #ffffff;
+  margin: 35px;
+  display: none;
+}
+
+.experiments-three:target {
+  display: block;
+}
+
+.first {
+  margin: 20px;
+}
+
+.first *:first-child {
+  color: #ff0000;
+}
+
+.last {
+  margin: 20px;
+}
+
+.last p:last-child {
+  color: #7cfc00;
+}
+
+.choice {
+  margin: 20px;
+}
+
+.choice p:nth-child(2) {
+  color: #d4ff00;
+}
+
+.selection {
+  margin: 20px;
+}
+
+.selection p:first-of-type {
+  text-transform: uppercase;
+  color: #7cfc00;
+}
+
+.number {
+  margin: 20px;
+}
+
+.number p:nth-child(odd) {
+  text-transform: uppercase;
+  color: #dd1d7d;
+}
+
+.eve {
+  margin: 20px;
+}
+
+.eve p:nth-child(even) {
+  text-transform: uppercase;
+  color: #ff0000;
+}
+
+.not {
+  background-color: #4be087;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.not p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.div {
+  margin-bottom: 25px;
+}
+
+.div::before {
+  content: "(";
+}
+
+.div::after {
+  content: ")";
+}
+
+span::before {
+  content: "!";
+}
+
+span::after {
+  content: "?";
+}
+
+ol {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #e4d6d6;
+}
+
+ol li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+ol li::before {
+  background: url(../img/icons/Star.svg) 0 6px no-repeat;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
