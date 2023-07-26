@@ -1,0 +1,244 @@
+/* первыц макет */
+header {
+  margin-bottom: 30px;
+}
+
+.header__container {
+  min-width: 1440px;
+  min-height: 600px;
+  background: #4b90b5 url("../img/background-blue-one.jpg");
+}
+
+.header__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #e5e5e5;
+  padding-left: 100px;
+}
+
+.header__text > p {
+  line-height: 2;
+}
+
+.header__text strong {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 4;
+  color: #f8f9fa;
+}
+
+.header__text p:first-child {
+  padding-top: 330px;
+}
+
+/* второй макет */
+.list {
+  margin-bottom: 30px;
+}
+
+.list__content {
+  padding-left: 50px;
+}
+
+.list__content li {
+  min-height: 30px;
+  margin-bottom: 22px;
+  padding-left: 35px;
+}
+
+.list__text {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  color: #212b36;
+  line-height: 2.8;
+  margin-bottom: 45px;
+}
+
+.list__content ul {
+  font-family: "Inter", sans-serif;
+  color: #637381;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 62px;
+}
+
+.list__circle li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../img/icons/Ellipse.svg") 0 8px no-repeat;
+}
+
+.list__cross-circle li {
+  background: url("../img/icons/cross-circle.svg") 0 2px no-repeat;
+}
+
+.list__checkmark-circle-blue li {
+  background: url("../img/icons/checkmark-circle.svg") 0 2px no-repeat;
+}
+
+.list__arrow li {
+  background: url("../img/icons/arrow-right.svg") 0 2px no-repeat;
+}
+
+.checkmark-circle-green li {
+  background: url("../img/icons/checkmark-circle-2.svg") 0 2px no-repeat;
+}
+
+.list__star li {
+  background: url("../img/icons/star.svg") 0 2px no-repeat;
+}
+
+/* третий макет */
+
+.sound {
+  margin-bottom: 50px;
+}
+
+.sound__container {
+  min-width: 1440px;
+  min-height: 560px;
+  background-color: #f4f7ff;
+  background: url(../img/speaker.jpg) 1100px 50px no-repeat,
+    linear-gradient(
+      90deg,
+      rgba(48, 86, 211, 0.08) 0%,
+      rgba(48, 86, 211, 0) 100%
+    );
+}
+
+.sound__text {
+  font-family: "Inter", sans-serif;
+  padding-left: 135px;
+}
+
+.sound__text p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 145px;
+  margin-bottom: 13px;
+  line-height: 2.4;
+  color: #3056d3;
+}
+
+.sound__text p:nth-child(2) {
+  font-size: 36px;
+  font-weight: 700;
+  /* line-height: 4.5; при его указании слишком большой отступ и я не знаю как его исправить? вместо "р" я использовала здесь изначально strong*/
+  margin-bottom: 15px;
+}
+
+.sound__text p:nth-child(3) {
+  font-weight: 500;
+  line-height: 2.4;
+  color: #637381;
+  margin-bottom: 35px;
+}
+
+.sound__button {
+  display: inline-block;
+  background-color: #3056d3;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: 5px solid #3056d3;
+  font-weight: 600;
+}
+
+/* эксперименты */
+
+.experiments__container {
+  min-width: 1440px;
+  min-height: 600px;
+}
+
+.experiments__content {
+  padding-left: 35px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.experiments__content > p {
+  margin-bottom: 20px;
+}
+
+.experiments__hover:hover {
+  color: #3056d3;
+}
+
+.link {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.link:active {
+  color: #ff0019;
+}
+
+.link:visited {
+  color: #008000;
+}
+
+.link:focus {
+  color: #d9ff01;
+}
+
+.experiments__block {
+  margin-bottom: 25px;
+}
+
+#block {
+  display: none;
+  background-color: #ceb3e9;
+  color: #f4f7ff;
+  padding: 20px;
+}
+
+#block:target {
+  display: block;
+}
+
+.experiments__list-one {
+  margin-bottom: 20px;
+}
+
+.experiments__list-one li:nth-child(odd) {
+  color: #ff0000;
+}
+
+.experiments__list-two li:nth-child(even) {
+  color: #ff0000;
+}
+
+.experiments__text p:not(:last-child) {
+margin-bottom: 10px;
+padding-top: 15px;
+color: #cd5c5c;
+}
+
+.experiments__div {
+padding-top: 25px;
+}
+
+.experiments__div::before {
+  content: "12345";
+  color: #ff0000;
+}
+
+.experiments__div::after {
+  content: "678910";
+  color: #3056d3;
+}
+
+span::before {
+  content: "%*(%)";
+  color: #ff00c3;
+}
+
+span::after {
+  content: "$(_@$";
+  color: #33d330;
+}
