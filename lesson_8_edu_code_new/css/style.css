@@ -1,0 +1,242 @@
+/* Добрый день, в силу своего эмоц.состояния я не выполнила еще два макета, но мне важно двигаться дальше по плану курса, учитывая что я делала перерыв и была еще на прошлом потоке 22 года, потому прошу отнестись с пониманием и отправляю столько, сколько успела выполнить, большое спасибо */
+
+
+
+
+/* Первый макет */
+.consulting {
+  margin-bottom: 50px;
+}
+
+.consulting__container {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.consulting__content h2 {
+  font-family: "Inter", sans-serif;
+  color: #37393f;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  background: url("../img/box.png") 0 2px no-repeat;
+  padding-left: 18px;
+  min-height: 10px;
+}
+
+.consulting__content h1 {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.consulting__text p {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  min-width: 673px;
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
+.consulting__item {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 20px;
+  background: url("../img/icons/check.svg") 0 3px no-repeat;
+  min-height: 30px;
+  line-height: 1.65;
+  margin-bottom: 23px;
+  padding-left: 35px;
+}
+
+.consulting__list {
+  margin-bottom: 43px;
+}
+
+.consulting__achievements {
+  margin-bottom: 37px;
+}
+
+.block {
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+  max-width: 270px;
+  margin-right: 17px;
+}
+
+.block h3 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: #37393f;
+}
+
+.block span {
+  font-family: "Inter", sans-serif;
+  color: #7d7d7d;
+  line-height: 1.4;
+}
+
+.consulting__block-one {
+  padding: 40px;
+  background: url("../img/icons/paper.svg") 5px 30px no-repeat;
+  padding-left: 50px;
+  min-height: 40px;
+}
+
+.consulting__block-two {
+  padding: 40px;
+  background: url("../img/icons/cup.svg") 5px 30px no-repeat;
+  padding-left: 50px;
+  min-height: 40px;
+}
+
+.consulting__button {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  background-color: #6b77e5;
+  padding: 21px 27px 22px 27px;
+}
+
+/* Второй макет */
+
+.projects__container {
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
+.projects__title {
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.projects__title h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #37393f;
+  margin-bottom: 14px;
+}
+
+.projects__title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #37393f;
+  margin-bottom: 14px;
+}
+
+.projects__title p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+  /* не работает max-width: 852px;, помогите разобраться почему, пожалуйста */
+}
+
+.projects__block-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #37393f;
+}
+
+.projects__block-date {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #7d7d7d;
+  background: url("../img/projects/group.svg") 0 3px no-repeat;
+}
+
+.projects__block-images-one {
+  max-height: 784px;
+  width: 100%;
+  background: url("../img/projects/computer.jpg");
+}
+
+/* Эксперименты */
+
+.experiments__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+p.padding {
+  padding: 20px;
+  min-height: 300px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.experiments__background-universal p {
+  background: url("../img/cat-one.jpg") 400px 30px / 250px no-repeat fixed,
+    linear-gradient(55.95deg, #ff3f3a 15%, #5788cd 100%);
+}
+
+.experiments__background-color p {
+  background-color: rgba(22, 195, 201, 0.438);
+}
+
+.experiments__background-image p {
+  background-image: url("../img/cat-two.jpg");
+  color: #f0f8ff;
+}
+
+.experiments__background-image-gradient {
+  background-image: linear-gradient(
+    18deg,
+    rgba(246, 255, 0, 1) 0%,
+    rgba(94, 62, 237, 0.7400093826593137) 100%
+  );
+}
+
+.experiments__background-repeat .no-repeat {
+  background-repeat: no-repeat;
+  background-image: url("../img/cat-one.jpg");
+  color: #f0f8ff;
+}
+
+.experiments__background-repeat .repeat-x {
+  background-repeat: repeat-x;
+  background-image: url("../img/cat-one.jpg");
+  color: #f0f8ff;
+}
+
+.experiments__background-repeat .repeat-y {
+  background-repeat: repeat-y;
+  background-image: url("../img/cat-one.jpg");
+  color: #f0f8ff;
+  min-height: 500px;
+}
+
+.experiments__background-position p {
+  background-position: 0 30px;
+  background-image: url("../img/cat-three.jpg");
+}
+
+.experiments__background-attachment p {
+  background-attachment: fixed;
+  background-image: url("../img/cat-one.jpg");
+}
+
+.experiments__background-size p {
+  background-size: cover;
+  background-image: url("../img/cat-two.jpg");
+}
+
+.experiments__background-multi p {
+  background: url("../img/cat-three.jpg") 4px 5px / 250px no-repeat,
+    linear-gradient(55.95deg, #bc4f4b 0%, #f75e05 100%);
+}
+
+.experiments__background-span span {
+  background: url("../img/cat-one.jpg") 0 0 no-repeat;
+  color: #ff3f3a;
+}
